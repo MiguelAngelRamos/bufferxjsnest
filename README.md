@@ -29,6 +29,7 @@
 ## Installation
 
 ```bash
+$ npm install @nestjs/axios 
 $ npm install
 ```
 
