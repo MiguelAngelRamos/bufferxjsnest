@@ -2,7 +2,7 @@ import { Controller, Get, Query } from '@nestjs/common';
 import { SecuenciaService } from './secuencia.service';
 import { toArray } from 'rxjs';
 
-@Controller('post')
+@Controller('posts')
 export class SecuenciaController {
   constructor(private readonly secuenciaService: SecuenciaService) {}
 
